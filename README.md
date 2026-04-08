@@ -131,12 +131,16 @@ GROUP BY dia ORDER BY dia;
 
 ## Dashboard
 
-![Dashboard IoT](docs/dashboard_screenshot.png)
+O dashboard exibe 3 gráficos interativos gerados a partir das views SQL do PostgreSQL:
 
-O dashboard exibe:
-- **Gráfico de barras:** média de temperatura por dispositivo
-- **Gráfico de linha:** total de leituras por hora
-- **Gráfico de linha dupla:** temperatura máxima e mínima por dia
+### Gráfico 1 — Média de temperatura por dispositivo
+![Grafico 1](docs/grafico1_media_por_dispositivo.png)
+
+### Gráfico 2 — Leituras por hora
+![Grafico 2](docs/grafico2_leituras_por_hora.png)
+
+### Gráfico 3 — Temperatura máxima e mínima por dia
+![Grafico 3](docs/grafico3_temp_max_min.png)
 
 ---
 
